@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sevong Entertainment | Music, Film & Drama</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="assets/logo2.jpg" alt="Sevong Entertainment" />
+          <span>Sevong Entertainment</span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="dropdown">
+              <a href="#services"
+                >Services <i class="fas fa-chevron-down"></i
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="#music">Music</a></li>
+                <li><a href="#film">Film</a></li>
+                <li><a href="#drama">Drama</a></li>
+              </ul>
+            </li>
+            <li><a href="#artists">Artists</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <h1>Happines is <span class="highlight">Seventeen</span> Let's make youth moment</h1>
+        <p>
+          We bring stories to life through music, film, and drama with passion
+          and creativity
+        </p>
+        <div class="hero-buttons">
+          <a href="#services" class="btn btn-primary">Explore Services</a>
+          <a href="#contact" class="btn btn-secondary">Contact Us</a>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About <span>Sevong Entertainment</span></h2>
+          <p>Discover our journey in the entertainment industry</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Our Story</h3>
+            <p>
+              Founded in 2014, Sevong Entertainment has grown from a small music
+              production house to a leading entertainment company with divisions
+              in music, film, and drama production. Our mission is to create
+              content that inspires, entertains, and connects people across the
+              globe.
+            </p>
+            <p>
+              With over 100 projects completed and numerous awards under our
+              belt, we continue to push boundaries in storytelling and artistic
+              expression.
+            </p>
+            <div class="stats">
+              <div class="stat-item">
+                <span class="number" data-count="150">0</span>
+                <span class="label">Projects</span>
+              </div>
+              <div class="stat-item">
+                <span class="number" data-count="50">0</span>
+                <span class="label">Artists</span>
+              </div>
+              <div class="stat-item">
+                <span class="number" data-count="25">0</span>
+                <span class="label">Awards</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-frame">
+              <img
+                src="assets/suit grup2.jpg"
+                alt="About Sevong Entertainment"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our <span>Services</span></h2>
+          <p>Comprehensive entertainment solutions</p>
+        </div>
+        <div class="services-tabs">
+          <div class="tabs-header">
+            <button class="tab-btn active" data-tab="music">Music</button>
+            <button class="tab-btn" data-tab="film">Film</button>
+            <button class="tab-btn" data-tab="drama">Drama</button>
+          </div>
+          <div class="tabs-content">
+            <!-- Music Tab -->
+            <div id="music" class="tab-pane active">
+                <div class="service-text">
+                  <h3>Music Production</h3>
+                  <p>
+                    From recording to distribution, we provide end-to-end music
+                    production services. Our state-of-the-art studios and
+                    experienced producers help artists bring their musical
+                    visions to life.
+                  </p>
+                  <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Recording & Mixing</li>
+                    <li><i class="fas fa-check"></i> Music Composition</li>
+                    <li><i class="fas fa-check"></i> Artist Development</li>
+                    <li><i class="fas fa-check"></i> Music Video Production</li>
+                    <li><i class="fas fa-check"></i> Digital Distribution</li>
+                  </ul>
+                  <div class="service-image">
+                    <img
+                      src="assets/drama poster2.jpg"
+                      alt="Music Production"
+                    />
+                  </div>
+                  <div class="audio-player">
+                    <h4>Sample Track</h4>
+                    <audio controls>
+                      <source src="assets/audio player/intro Hot.mp3" type="audio/mpeg" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                  <a href="#contact" class="btn btn-primary">Inquire Now</a>
+                </div>
+              </div>
+            </div>
+
+      <!-- Film Tab -->
+<div id="film" class="tab-pane">
+  <div class="service-details" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+    <!-- Gambar Poster -->
+    <div class="service-image" style="flex: 1; min-width: 250px;">
+      <img src="assets/drama poster1.jpg" alt="Film Production" style="width: 100%; border-radius: 8px;" />
+    </div>
+
+    <!-- Teks dan Video -->
+    <div class="service-info" style="flex: 2; min-width: 300px;">
+      <div class="service-text">
+        <h3>Film Production</h3>
+        <p>
+          We produce compelling films that captivate audiences worldwide.
+          Our team of directors, cinematographers, and editors work together
+          to create cinematic masterpieces.
+        </p>
+        <ul class="service-features">
+          <li><i class="fas fa-check"></i> Feature Films</li>
+          <li><i class="fas fa-check"></i> Short Films</li>
+          <li><i class="fas fa-check"></i> Documentaries</li>
+          <li><i class="fas fa-check"></i> Post-Production</li>
+          <li><i class="fas fa-check"></i> Film Distribution</li>
+        </ul>
+      </div>
+
+      <!-- Video Trailer -->
+      <div class="video-player" style="margin-top: 1rem;">
+        <h4>Film Trailer</h4>
+        <video controls class="film-video">
+          <source src="assets/video_player/going trailer2.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <a href="#contact" class="btn btn-primary" style="margin-top: 1rem;">Inquire Now</a>
+    </div>
+  </div>
+</div>
+
+            <!-- Drama Tab -->
+            <div id="drama" class="tab-pane">
+              <div class="service-details">
+                <div class="service-image">
+                  <img src="assets/drama poster6.jpg" alt="Drama Production" />
+                </div>
+                <div class="service-text">
+                  <h3>Drama Production</h3>
+                  <p>
+                    Our drama productions tell powerful stories that resonate
+                    with audiences. From theater to television series, we create
+                    memorable performances that leave lasting impressions.
+                  </p>
+                  <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Theater Productions</li>
+                    <li><i class="fas fa-check"></i> TV Series</li>
+                    <li><i class="fas fa-check"></i> Web Series</li>
+                    <li><i class="fas fa-check"></i> Script Writing</li>
+                    <li><i class="fas fa-check"></i> Casting & Direction</li>
+                  </ul>
+                  <div class="upcoming-shows">
+                    <h4>Upcoming Shows</h4>
+                    <ul class="show-list">
+                      <li>"Don't Lie" - Premiering June 2027</li>
+                      <li>"EGO" -  Coming Soon</li>
+                      <li>"Face The Sun" - Theater Tour 2023</li>
+                    </ul>
+                  </div>
+                  <a href="#contact" class="btn btn-primary">Inquire Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Artists Section -->
+    <section id="artists" class="artists">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our <span>Artists</span></h2>
+          <p>Meet the talented individuals behind our creations</p>
+        </div>
+        <di class="artist-gallery">
+          <div class="artist-card">
+            <div class="artist-image">
+              <img src="assets/images/karina.jpg" alt="Artist 1" />
+              <div class="artist-overlay">
+                <div class="social-links">
+                  <a href="https://www.instagram.com/katarinabluu?igsh=MWphYTk2aG5uZHVpbQ=="><i class="fab fa-instagram"></i></a>
+                  <a href="https://x.com/aespa_official?t=HeWMScfbqVA0tNMV_a7JYA&s=09"><i class="fab fa-twitter"></i></a>
+                  <a href="https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE?si=8wzSw2fWRECYnYX_xMvrFQ"><i class="fab fa-spotify"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="artist-info">
+              <h3>Karina</h3>
+              <p>Singer</p>
+            </div>
+          </div>
+          <div class="artist-card">
+            <div class="artist-image">
+              <img src="assets/images/mingyu suit.jpg" alt="Artist 2" />
+              <div class="artist-overlay">
+                <div class="social-links">
+                  <a href="https://www.instagram.com/min9yu_k?igsh=em1hdXlvOTBtZDQz"><i class="fab fa-instagram"></i></a>
+                  <a href="https://x.com/pledis_17?t=rH_Qh3MXS3egjvidVEWQMw&s=09"><i class="fab fa-twitter"></i></a>
+                  <a href="https://open.spotify.com/artist/7nqOGRxlXj7N2JYbgNEjYH?si=olKbuxN1R42249-VFyPbhw"><i class="fab fa-spotify"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="artist-info">
+              <h3>Kim Mingyu</h3>
+              <p>Singer - Film Director</p>
+            </div>
+          </div>
+          <div class="artist-card">
+            <div class="artist-image">
+              <img src="assets/images/jiwoo1.jpg" alt="Artist 3" />
+              <div class="artist-overlay">
+                <div class="social-links">
+                  <a href="https://www.instagram.com/hearts2hearts?igsh=ajRtYTRmdDI1ODAw"><i class="fab fa-instagram"></i></a>
+                  <a href="https://x.com/Hearts2Hearts?t=ns9uC9AKTRkzzeZCpX-YIw&s=09"><i class="fab fa-twitter"></i></a>
+                  <a href="https://youtube.com/@hearts2hearts.official?si=5MRMWNGCsvaBSzHW"><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="artist-info">
+              <h3>Jiwoo</h3>
+              <p>Theater Actress</p>
+            </div>
+          </div>
+          <div class="artist-card">
+            <div class="artist-image">
+              <img src="assets/images/vernon suit.jpg" alt="Artist 4" />
+              <div class="artist-overlay">
+                <div class="social-links">
+                  <a href="https://www.instagram.com/vernonline?igsh=ZnpvOHU1eXpkdWMx"><i class="fab fa-instagram"></i></a>
+                  <a href="https://x.com/pledis_17?t=rH_Qh3MXS3egjvidVEWQMw&s=09"><i class="fab fa-twitter"></i></a>
+                  <a href="https://open.spotify.com/artist/7nqOGRxlXj7N2JYbgNEjYH?si=olKbuxN1R42249-VFyPbhw"><i class="fab fa-spotify"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="artist-info">
+              <h3>Vernon</h3>
+              <p>Music Producer</p>
+            </div>
+          </div>
+      <div class="artist-card">
+        <div class="artist-image">
+          <img src="assets/images/wonwoo suit2.jpg" alt="Artist 5" />
+          <div class="artist-overlay">
+            <div class="social-links">
+              <a href="https://www.instagram.com/everyone_woo?igsh=MXdzcjRjZHF2dXg5MQ=="><i class="fab fa-instagram"></i></a>
+              <a href="https://x.com/pledis_17?t=rH_Qh3MXS3egjvidVEWQMw&s=09"><i class="fab fa-twitter"></i></a>
+              <a href="https://open.spotify.com/artist/7nqOGRxlXj7N2JYbgNEjYH?si=olKbuxN1R42249-VFyPbhw"><i class="fab fa-spotify"></i></a>
+            </div>
+          </div>
+          </div>
+          <div class="artist-info">
+            <h3>Wonwoo</h3>
+            <p>Singer</p>
+          </div>
+        </div>
+      </div>
+      <div class="view-all">
+          <a href="#" class="btn btn-secondary">View All Artists</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get In <span>Touch</span></h2>
+          <p>We'd love to hear from you</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info-text">
+                <h3>Address</h3>
+                <p>42 Hangang-daero, Yongsan District, Seoul, Korea Selatan</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone-alt"></i>
+              <div class="info-text">
+                <h3>Phone</h3>
+                <p>+8225481677</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div class="info-text">
+                <h3>Email</h3>
+                <p>info@sevongentertainment.com</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div class="info-text">
+                <h3>Working Hours</h3>
+                <p>Monday - Friday: 9AM - 6PM</p>
+                <p>Saturday: 10AM - 4PM</p>
+              </div>
+            </div>
+            <div class="social-media">
+              <a href="https://x.com/pledis_17?t=rH_Qh3MXS3egjvidVEWQMw&s=09"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/saythename_17/"><i class="fab fa-instagram"></i></a>
+              <a href="https://youtube.com/@pledis17?si=hDoZFDa8UCsmXhsL"><i class="fab fa-youtube"></i></a>
+              <a href="https://open.spotify.com/artist/7nqOGRxlXj7N2JYbgNEjYH?si=olKbuxN1R42249-VFyPbhw"><i class="fab fa-spotify"></i></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Subscribe to Our Newsletter</h2>
+          <p>Stay updated with our latest projects, releases, and events</p>
+          <form id="newsletterForm">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-col">
+            <div class="logo">
+              <img src="assets/logo1.jpg" alt="Sevong Entertainment" />
+              <span>Sevong</span>
+            </div>
+            <p>
+              Creating magical moments through music, film, and drama since
+              2014.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#artists">Artists</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#music">Music Production</a></li>
+              <li><a href="#film">Film Production</a></li>
+              <li><a href="#drama">Drama Production</a></li>
+              <li><a href="#">Artist Management</a></li>
+              <li><a href="#">Event Planning</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Copyright Information</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Sevong Entertainment. All Rights Reserved.</p>
+          <div class="back-to-top">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
